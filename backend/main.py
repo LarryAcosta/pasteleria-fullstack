@@ -28,6 +28,7 @@ def read_root():
     return {
         "message": "API Pastelería funcionando",
         "env": settings.app_env,
+        "cors_mode": "wildcard",
     }
 
 
